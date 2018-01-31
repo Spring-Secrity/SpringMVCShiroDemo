@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SpringMVCShiroDemo:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="SpringMVCShiroDemo.war">
+      <element id="artifact" artifact-name="SpringMVCShiroDemo:war exploded" />
+    </root>
+  </artifact>
+</component>
