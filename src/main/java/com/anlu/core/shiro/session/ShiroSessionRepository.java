@@ -1,4 +1,4 @@
-package com.anlu.shiro.controller.core.shiro.session;
+package com.anlu.core.shiro.session;
 
 import org.apache.shiro.session.Session;
 

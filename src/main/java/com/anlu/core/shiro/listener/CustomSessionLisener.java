@@ -1,9 +1,8 @@
-package com.anlu.shiro.controller.core.shiro.listener;
+package com.anlu.core.shiro.listener;
 
-import com.anlu.shiro.controller.core.shiro.session.ShiroSessionRepository;
+import com.anlu.core.shiro.session.ShiroSessionRepository;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.session.SessionListener;
-import org.apache.shiro.web.servlet.ShiroHttpSession;
 
 public class CustomSessionLisener implements SessionListener{
     private ShiroSessionRepository shiroSessionRepository;
