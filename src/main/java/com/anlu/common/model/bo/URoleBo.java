@@ -1,9 +1,9 @@
-package com.anlu.model.bo;
+package com.anlu.common.model.bo;
 
 
 
 import com.anlu.core.utils.StringUtils;
-import com.anlu.model.URole;
+import com.anlu.common.model.URole;
 
 import java.io.Serializable;
 

@@ -55,7 +55,7 @@
 		<property name="configLocation" value="classpath:mybatis-config.xml"/>
 		<property name="mapperLocations"  >
 			<list>
-				<value>classpath:com/anlu/mapper/*.xml</value>
+				<value>classpath:com/anlu/common/mapper/*.xml</value>
 			</list>
 		</property>
 	</bean>

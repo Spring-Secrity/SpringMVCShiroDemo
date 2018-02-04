@@ -1,6 +1,6 @@
-package com.anlu.dao;
+package com.anlu.common.dao;
 
-import com.anlu.model.UUserRole;
+import com.anlu.common.model.UUserRole;
 
 import java.util.List;
 import java.util.Map;

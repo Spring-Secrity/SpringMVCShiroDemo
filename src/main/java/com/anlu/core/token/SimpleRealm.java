@@ -1,7 +1,7 @@
 package com.anlu.core.token;
 
-import com.anlu.model.URole;
-import com.anlu.model.UUser;
+import com.anlu.common.model.URole;
+import com.anlu.common.model.UUser;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;

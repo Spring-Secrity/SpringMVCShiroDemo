@@ -1,7 +1,7 @@
-package com.anlu.dao;
+package com.anlu.common.dao;
 
-import com.anlu.model.UPermission;
-import com.anlu.model.bo.UPermissionBo;
+import com.anlu.common.model.UPermission;
+import com.anlu.common.model.bo.UPermissionBo;
 
 import java.util.List;
 import java.util.Set;

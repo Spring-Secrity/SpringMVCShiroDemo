@@ -1,4 +1,4 @@
-package com.anlu.model;
+package com.anlu.common.model;
 
 import java.io.Serializable;
 

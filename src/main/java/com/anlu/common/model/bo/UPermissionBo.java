@@ -1,9 +1,9 @@
-package com.anlu.model.bo;
+package com.anlu.common.model.bo;
 
 
 
 import com.anlu.core.utils.StringUtils;
-import com.anlu.model.UPermission;
+import com.anlu.common.model.UPermission;
 
 import java.io.Serializable;
 

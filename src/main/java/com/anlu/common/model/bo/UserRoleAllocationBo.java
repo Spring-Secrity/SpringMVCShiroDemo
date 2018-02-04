@@ -1,7 +1,7 @@
-package com.anlu.model.bo;
+package com.anlu.common.model.bo;
 
 
-import com.anlu.model.UUser;
+import com.anlu.common.model.UUser;
 
 import java.io.Serializable;
 

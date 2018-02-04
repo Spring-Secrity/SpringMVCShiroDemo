@@ -1,4 +1,4 @@
-package com.anlu.model.bo;
+package com.anlu.common.model.bo;
 
 import java.io.Serializable;
 

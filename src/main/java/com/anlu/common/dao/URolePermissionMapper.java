@@ -1,6 +1,6 @@
-package com.anlu.dao;
+package com.anlu.common.dao;
 
-import com.anlu.model.URolePermission;
+import com.anlu.common.model.URolePermission;
 
 import java.util.List;
 import java.util.Map;

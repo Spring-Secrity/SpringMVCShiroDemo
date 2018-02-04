@@ -1,7 +1,7 @@
-package com.anlu.dao;
+package com.anlu.common.dao;
 
-import com.anlu.model.UUser;
-import com.anlu.model.bo.URoleBo;
+import com.anlu.common.model.UUser;
+import com.anlu.common.model.bo.URoleBo;
 
 import java.util.List;
 import java.util.Map;
