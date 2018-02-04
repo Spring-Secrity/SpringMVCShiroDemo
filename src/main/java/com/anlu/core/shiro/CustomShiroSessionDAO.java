@@ -1,6 +1,6 @@
 package com.anlu.core.shiro;
 
-import com.anlu.core.session.ShiroSessionRepository;
+import com.anlu.core.shiro.session.ShiroSessionRepository;
 
 import com.anlu.core.utils.LoggerUtils;
 import org.apache.shiro.session.Session;

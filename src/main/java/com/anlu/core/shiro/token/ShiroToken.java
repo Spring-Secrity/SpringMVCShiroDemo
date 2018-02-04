@@ -1,6 +1,5 @@
-package com.anlu.core.token;
+package com.anlu.core.shiro.token;
 
-import org.apache.http.auth.UsernamePasswordCredentials;
 import org.apache.shiro.authc.UsernamePasswordToken;
 
 import java.io.Serializable;

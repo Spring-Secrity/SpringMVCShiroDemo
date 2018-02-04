@@ -1,4 +1,4 @@
-package com.anlu.core.session;
+package com.anlu.core.shiro.session;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.anlu.core.cache;
+package com.anlu.core.shiro.cache;
 
 import com.anlu.core.utils.LoggerUtils;
 import com.anlu.core.utils.SerializeUtil;

@@ -79,11 +79,11 @@
 	</bean>
 	
 	<!-- shiro 缓存实现，对ShiroCacheManager，我是采用redis的实现 -->
-	<bean id="jedisShiroCacheManager" class="com.sojson.core.shiro.cache.impl.JedisShiroCacheManager">
+	<bean id="jedisShiroCacheManager" class="com.anlu.core.shiro.cache..impl.JedisShiroCacheManager">
 	    <property name="jedisManager" ref="jedisManager"/>
 	</bean>
 	<!-- redis 的缓存 -->
-	<bean id="jedisManager" class="com.sojson.core.shiro.cache.JedisManager">
+	<bean id="jedisManager" class="com.anlu.core.shiro.cache.JedisManager">
 	    <property name="jedisPool" ref="jedisPool"/>
 	</bean>
 	<!-- 静态注入，相当于调用SecurityUtils.setSecurityManager(securityManager) -->
@@ -100,16 +100,10 @@
 	    <property name="staticMethod" value="com.sojson.core.shiro.filter.KickoutSessionFilter.setShiroSessionRepository"/>
 	    <property name="arguments" ref="jedisShiroSessionRepository"/>
 	</bean>
-	
-	
-	
-	
+
 	<!-- 授权 认证 -->
-	<bean id="sampleRealm" class="com.anlu.core.token.SimpleRealm" ></bean>
+	<bean id="sampleRealm" class="com.anlu.core.shiro.token.SimpleRealm" ></bean>
 
-
-	
-	
 	<!-- Session Manager -->
 	<bean id="sessionManager" class="org.apache.shiro.web.session.mgt.DefaultWebSessionManager">
 		<!-- 相隔多久检查一次session的有效性   -->
@@ -133,7 +127,7 @@
 	   <property name="sessionIdCookie" ref="sessionIdCookie"/>
 	</bean>
 	<!-- session 创建、删除、查询 -->
-	<bean id="jedisShiroSessionRepository" class="com.sojson.core.shiro.cache.JedisShiroSessionRepository" >
+	<bean id="jedisShiroSessionRepository" class="com.anlu.core.shiro.cache.JedisShiroSessionRepository" >
 		 <property name="jedisManager" ref="jedisManager"/>
 	</bean>
 
@@ -179,7 +173,7 @@
               <entry key="role" value-ref="role"></entry>
               <entry key="simple" value-ref="simple"></entry>
               <entry key="permission" value-ref="permission"></entry>
-              <entry key="kickout" value-ref="kickoutSessionFilter"></entry>
+              <!--<entry key="kickout" value-ref="kickoutSessionFilter"></entry>-->
            </util:map>
        </property>
 	</bean>

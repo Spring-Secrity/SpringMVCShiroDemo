@@ -1,4 +1,4 @@
-package com.anlu.shiro.controller;
+package com.anlu.user.controller;
 
 import com.anlu.common.model.UUser;
 import org.apache.shiro.SecurityUtils;

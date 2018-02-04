@@ -1,4 +1,4 @@
-package com.anlu.core.token;
+package com.anlu.core.shiro.token;
 
 import com.anlu.common.model.URole;
 import com.anlu.common.model.UUser;

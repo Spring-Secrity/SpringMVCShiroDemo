@@ -1,6 +1,6 @@
 package com.anlu.core.shiro.listener;
 
-import com.anlu.core.session.ShiroSessionRepository;
+import com.anlu.core.shiro.session.ShiroSessionRepository;
 import org.apache.shiro.session.Session;
 import org.apache.shiro.session.SessionListener;
 

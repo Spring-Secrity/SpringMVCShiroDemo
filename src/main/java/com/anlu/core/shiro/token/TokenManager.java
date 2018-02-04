@@ -1,8 +1,6 @@
-package com.anlu.core.token;
+package com.anlu.core.shiro.token;
 
 import com.anlu.core.utils.SpringContextUtil;
-
-import java.awt.image.SampleModel;
 
 public class TokenManager {
     //用户登录管理
