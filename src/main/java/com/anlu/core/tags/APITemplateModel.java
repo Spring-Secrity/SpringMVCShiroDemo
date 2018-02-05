@@ -1,8 +1,9 @@
 package com.anlu.core.tags;
 
-import com.sojson.common.utils.LoggerUtils;
-import com.sojson.common.utils.SpringContextUtil;
-import com.sojson.core.statics.Constant;
+
+import com.anlu.core.Constant;
+import com.anlu.core.utils.LoggerUtils;
+import com.anlu.core.utils.SpringContextUtil;
 import freemarker.template.TemplateModel;
 import freemarker.template.TemplateModelException;
 
@@ -11,25 +12,7 @@ import java.util.Map;
 
 import static freemarker.template.ObjectWrapper.DEFAULT_WRAPPER;
 
-/**
- * 
- * 开发公司：SOJSON在线工具 <p>
- * 版权所有：© www.sojson.com<p>
- * 博客地址：http://www.sojson.com/blog/  <p>
- * <p>
- * 
- * Freemarker 自定义标签 API公共入口
- * 
- * <p>
- * 
- * 区分　责任人　日期　　　　说明<br/>
- * 创建　周柏成　2016年6月2日 　<br/>
- *
- * @author zhou-baicheng
- * @email  so@sojson.com
- * @version 1.0,2016年6月2日 <br/>
- * 
- */
+
 
 public class APITemplateModel extends WYFTemplateModel {
 

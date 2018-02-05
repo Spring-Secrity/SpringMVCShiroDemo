@@ -1,12 +1,13 @@
 package com.anlu.common.dao;
 
 import com.anlu.common.model.URole;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-
+@Repository
 public interface URoleMapper {
     int deleteByPrimaryKey(Long id);
 

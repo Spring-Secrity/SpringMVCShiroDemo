@@ -2,11 +2,13 @@ package com.anlu.common.dao;
 
 import com.anlu.common.model.UUser;
 import com.anlu.common.model.bo.URoleBo;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Map;
 
 
+@Repository
 public interface UUserMapper {
     int deleteByPrimaryKey(Long id);
 

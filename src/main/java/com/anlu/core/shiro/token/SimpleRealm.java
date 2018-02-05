@@ -2,11 +2,13 @@ package com.anlu.core.shiro.token;
 
 import com.anlu.common.model.URole;
 import com.anlu.common.model.UUser;
+import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.apache.shiro.subject.SimplePrincipalCollection;
 
 import java.util.Date;
 import java.util.HashSet;
@@ -55,5 +57,22 @@ public class SimpleRealm extends AuthorizingRealm {
             user.setLastLoginTime(new Date());
         }
         return new SimpleAuthenticationInfo(user,user.getPswd(),getName());
+    }
+    /**
+     * 清空当前用户权限信息
+     */
+    public  void clearCachedAuthorizationInfo() {
+        PrincipalCollection principalCollection = SecurityUtils.getSubject().getPrincipals();
+        SimplePrincipalCollection principals = new SimplePrincipalCollection(
+                principalCollection, getName());
+        super.clearCachedAuthorizationInfo(principals);
+    }
+    /**
+     * 指定principalCollection 清除
+     */
+    public void clearCachedAuthorizationInfo(PrincipalCollection principalCollection) {
+        SimplePrincipalCollection principals = new SimplePrincipalCollection(
+                principalCollection, getName());
+        super.clearCachedAuthorizationInfo(principals);
     }
 }

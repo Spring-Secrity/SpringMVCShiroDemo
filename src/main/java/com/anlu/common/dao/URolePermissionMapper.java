@@ -1,11 +1,12 @@
 package com.anlu.common.dao;
 
 import com.anlu.common.model.URolePermission;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Map;
 
-
+@Repository
 public interface URolePermissionMapper {
     int insert(URolePermission record);
 

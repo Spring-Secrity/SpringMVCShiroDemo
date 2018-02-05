@@ -2,11 +2,12 @@ package com.anlu.common.dao;
 
 import com.anlu.common.model.UPermission;
 import com.anlu.common.model.bo.UPermissionBo;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Set;
 
-
+@Repository
 public interface UPermissionMapper {
     int deleteByPrimaryKey(Long id);
 

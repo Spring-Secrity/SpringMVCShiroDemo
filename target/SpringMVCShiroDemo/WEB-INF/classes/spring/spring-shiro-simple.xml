@@ -12,7 +12,7 @@
 
 
 	<!-- Realm实现 -->
-	<bean id="userRealm" class="com.anlu.core.token.SimpleRealm">
+	<bean id="userRealm" class="com.anlu.core.shiro.token.SimpleRealm">
 		<!--<property name="credentialsMatcher" ref="credentialsMatcher" />-->
 	</bean>
 

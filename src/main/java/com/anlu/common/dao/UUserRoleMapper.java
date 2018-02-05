@@ -1,12 +1,13 @@
 package com.anlu.common.dao;
 
 import com.anlu.common.model.UUserRole;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Map;
 
 
-
+@Repository
 public interface UUserRoleMapper {
     int insert(UUserRole record);
 
