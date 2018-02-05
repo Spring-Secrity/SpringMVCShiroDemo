@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 
-@Repository
+@Repository("UUserMapper")
 public interface UUserMapper {
     int deleteByPrimaryKey(Long id);
 

@@ -52,8 +52,8 @@ public interface Constant {
 	
 	
 	/**地址**/
-//	static final String DOMAIN_WWW = IConfig.get("domain.www");//前端域名
-//	static final String DOMAIN_CDN = IConfig.get("domain.cdn");//静态资源域名
+	static final String DOMAIN_WWW = "domain.www";//前端域名
+	static final String DOMAIN_CDN = "domain.cdn";//静态资源域名
 	static String VERSION = String.valueOf(System.currentTimeMillis());//版本号，重启的时间
 	
 	
