@@ -7,69 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1241aba-c9ce-44cf-9f3b-b941087e9c47" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/bootstrap/3.3.5/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/layer/skin/default/icon-ext.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/layer/skin/default/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/layer/skin/default/loading-0.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/layer/skin/default/loading-1.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/layer/skin/default/loading-2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/anlu/core/freemark/extend/Ferrmarker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/anlu/core/freemark/extend/FreeMarkerConfigExtend.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/anlu/core/freemark/extend/FreeMarkerViewExtend.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/anlu/user/controller/MemberController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/common/404.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/common/500.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/common/config/left.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/common/config/top.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/common/kicked_out.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/common/unauthorized.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/demo/index.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/member/list.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/member/online.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/member/onlineDetails.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/role/allocation.ftl_bak" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/role/index.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/user/index.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/user/login.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/user/register.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/user/updatePswd.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/user/updateSelf.ftl" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/common/base.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/login/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/login/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/css/login/supersized.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/html/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/MD5.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/bootstrap/3.3.5/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/bootstrap/3.3.5/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/bootstrap/bootstrap-treeview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/jquery.barrager.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/jquery/jquery.form-2.82.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/jquery/jquery1.8.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/layer/extend/layer.ext.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/layer/layer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/layer/skin/layer.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/layer/skin/layer.ext.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/supersized-init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/common/supersized.3.2.7.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/shiro.demo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/statics/js/user.login.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-shiro-simple.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringMVCShiroDemo/WEB-INF/classes/spring/spring-shiro-simple.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spring/spring-shiro-simple.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/anlu/common/dao/UUserMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/anlu/common/dao/UUserMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/anlu/core/Constant.java" afterPath="$PROJECT_DIR$/src/main/java/com/anlu/core/Constant.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/anlu/user/service/impl/UUServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/anlu/user/service/impl/UUServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVCShiroDemo/WEB-INF/classes/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/SpringMVCShiroDemo/WEB-INF/classes/spring/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/SpringMVCShiroDemo/WEB-INF/classes/spring/spring-mybatis.xml" afterPath="$PROJECT_DIR$/target/SpringMVCShiroDemo/WEB-INF/classes/spring/spring-mybatis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mvc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/spring-mybatis.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-mybatis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/URoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/URoleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/URolePermissionMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/URolePermissionMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/UUserMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/UUserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/UUserRoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/UUserRoleMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -82,41 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="spring-shiro.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-495">
-              <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseMybatisDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/core/mybatis/BaseMybatisDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="22" column="53" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UUServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/user/service/impl/UUServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+            <state relative-caret-position="284">
+              <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,12 +36,57 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MethodInvokingFactoryBean.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar!/org/springframework/beans/factory/config/MethodInvokingFactoryBean.class">
+      <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="443">
+              <caret line="57" column="43" lean-forward="true" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UPermissionMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/UPermissionMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2013">
+              <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+              <folding>
+                <marker date="1517821991421" expanded="true" signature="1016:1086" ph="select from u_permission" />
+                <marker date="1517821991421" expanded="true" signature="1223:1258" ph="select count... u_permission" />
+                <marker date="1517821991421" expanded="true" signature="2005:2249" ph="select up.id... u_permission" />
+                <marker date="1517821991421" expanded="true" signature="2155:2209" ph="select id fr... u_role" />
+                <marker date="1517821991421" expanded="true" signature="2649:2794" ph="select p.url... u_permission" />
+                <marker date="1517821991421" expanded="true" signature="2910:3017" ph="select from u_permission" />
+                <marker date="1517821991421" expanded="true" signature="3101:3162" ph="delete from " />
+                <marker date="1517821991421" expanded="true" signature="3294:3420" ph="insert into u_permission... " />
+                <marker date="1517821991421" expanded="true" signature="4231:4476" ph="update u_per... " />
+                <marker date="1517821991421" expanded="true" signature="4579:4712" ph="update u_per... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URoleMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/URoleMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+              <folding>
+                <marker date="1517879838634" expanded="true" signature="1334:1431" ph="select r.typ... u_role" />
+                <marker date="1517879838634" expanded="true" signature="1518:1582" ph="select from u_role" />
+                <marker date="1517879838634" expanded="true" signature="1719:1748" ph="select count... u_role" />
+                <marker date="1517879838634" expanded="true" signature="2148:2310" ph="select ur.id... u_role" />
+                <marker date="1517879838634" expanded="true" signature="2229:2286" ph="select * fro... u_user_role" />
+                <marker date="1517879838634" expanded="true" signature="2451:2953" ph="select ur.id... u_role" />
+                <marker date="1517879838634" expanded="true" signature="3594:3876" ph="select ur.id... rid" />
+                <marker date="1517879838634" expanded="true" signature="3664:3729" ph="select rid f... u_user_role" />
+                <marker date="1517879838634" expanded="true" signature="4032:4133" ph="select from u_role" />
+                <marker date="1517879838634" expanded="true" signature="4217:4272" ph="delete from " />
+                <marker date="1517879838634" expanded="true" signature="4398:4534" ph="insert into u_role... " />
+                <marker date="1517879838634" expanded="true" signature="5331:5573" ph="update u_rol... " />
+                <marker date="1517879838634" expanded="true" signature="5670:5799" ph="update u_rol... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,18 +94,8 @@
       <file leaf-file-name="UUserRoleMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/common/dao/UUserRoleMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="198">
               <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UUserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/user/service/UUserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -164,22 +111,69 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml">
+      <file leaf-file-name="URoleMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/common/dao/URoleMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="40" />
+            <state relative-caret-position="297">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShiroManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/core/shiro/service/ShiroManager.java">
+      <file leaf-file-name="URolePermissionMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/URolePermissionMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="330">
+              <caret line="55" column="53" lean-forward="true" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
+              <folding>
+                <marker date="1517879845184" expanded="true" signature="574:680" ph="select from u_role_permission" />
+                <marker date="1517879845184" expanded="true" signature="783:889" ph="select from u_role_permission" />
+                <marker date="1517879845184" expanded="true" signature="979:1124" ph="select from u_role_permission" />
+                <marker date="1517879845184" expanded="true" signature="1188:1252" ph="delete from " />
+                <marker date="1517879845184" expanded="true" signature="1316:1380" ph="delete from " />
+                <marker date="1517879845184" expanded="true" signature="1446:1549" ph="delete from " />
+                <marker date="1517879845184" expanded="true" signature="1614:1685" ph="delete from " />
+                <marker date="1517879845184" expanded="true" signature="1786:1886" ph="insert into u_role_permission... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UUserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/UUserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+              <folding>
+                <marker date="1517879851608" expanded="true" signature="1380:1444" ph="select from u_user" />
+                <marker date="1517879851608" expanded="true" signature="1581:1610" ph="select count... u_user" />
+                <marker date="1517879851608" expanded="true" signature="1777:2316" ph="select u.id,... u_user" />
+                <marker date="1517879851608" expanded="true" signature="2416:2648" ph="select ur.id... u_role" />
+                <marker date="1517879851608" expanded="true" signature="2555:2608" ph="select id fr... u_user" />
+                <marker date="1517879851608" expanded="true" signature="2985:3130" ph="select from u_user" />
+                <marker date="1517879851608" expanded="true" signature="3228:3336" ph="select from u_user" />
+                <marker date="1517879851608" expanded="true" signature="3450:3551" ph="select from u_user" />
+                <marker date="1517879851608" expanded="true" signature="3635:3690" ph="delete from " />
+                <marker date="1517879851608" expanded="true" signature="3816:4142" ph="insert into u_user... " />
+                <marker date="1517879851608" expanded="true" signature="5576:6230" ph="update u_use... " />
+                <marker date="1517879851608" expanded="true" signature="6327:6662" ph="update u_use... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UUserRoleMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/UUserRoleMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+              <folding>
+                <marker date="1517879856334" expanded="true" signature="493:587" ph="insert into u_user_role... " />
+                <marker date="1517879856334" expanded="true" signature="654:712" ph="delete from " />
+                <marker date="1517879856334" expanded="true" signature="764:829" ph="delete from " />
+                <marker date="1517879856334" expanded="true" signature="926:988" ph="select uid f... u_user_role" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -208,7 +202,11 @@
       <find>customSessionManager</find>
       <find>KickoutSessionFilter</find>
       <find>customShiroCacheManager</find>
+      <find>sojson</find>
     </findStrings>
+    <replaceStrings>
+      <replace>anlu</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -221,10 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/anlu/core/cache/JedisManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/anlu/core/session/SessionStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/anlu/core/shiro/CustomShiroSessionDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/anlu/user/bo/UserOnlineBo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/anlu/core/cache/JedisShiroSessionRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/anlu/core/session/CustomSessionManager.java" />
@@ -272,6 +266,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/anlu/user/service/impl/UUServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/anlu/common/dao/UUserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/URoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/URolePermissionMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/UUserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/UUserRoleMapper.xml" />
       </list>
     </option>
   </component>
@@ -311,9 +309,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -363,7 +358,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="anlu" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringMVCShiroDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -387,46 +383,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SpringMVCShiroDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCShiroDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVCShiroDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCShiroDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVCShiroDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCShiroDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="ftl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringMVCShiroDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringMVCShiroDemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="ftl" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -674,15 +638,17 @@
       <workItem from="1517810865982" duration="806000" />
       <workItem from="1517812032954" duration="2829000" />
       <workItem from="1517817730103" duration="4863000" />
-      <workItem from="1517834898826" duration="5294000" />
+      <workItem from="1517834898826" duration="5369000" />
+      <workItem from="1517879369660" duration="648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39519000" />
+    <option name="totallyTimeSpent" value="40242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -695,15 +661,15 @@
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29218572" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="326" width="1920" height="377" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24688561" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="326" width="1920" height="377" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.04303511" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26666668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -769,55 +735,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/common/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1462#1463#0" expanded="false" />
-            <element signature="e#1512#1513#0" expanded="false" />
-            <element signature="e#1849#1850#0" expanded="false" />
-            <element signature="e#1914#1915#0" expanded="false" />
-            <element signature="e#1921#1951#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/user/controller/AuthController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/core/tags/SuperCustomTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="21" column="19" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/core/tags/WYFTemplateModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="19" column="8" lean-forward="false" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/user/manager/UserManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1023">
-          <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/core/shiro/token/ShiroToken.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,26 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/UPermissionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2013">
-          <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
-          <folding>
-            <marker date="1517821991421" expanded="true" signature="1016:1086" ph="select from u_permission" />
-            <marker date="1517821991421" expanded="true" signature="1223:1258" ph="select count... u_permission" />
-            <marker date="1517821991421" expanded="true" signature="2005:2249" ph="select up.id... u_permission" />
-            <marker date="1517821991421" expanded="true" signature="2155:2209" ph="select id fr... u_role" />
-            <marker date="1517821991421" expanded="true" signature="2649:2794" ph="select p.url... u_permission" />
-            <marker date="1517821991421" expanded="true" signature="2910:3017" ph="select from u_permission" />
-            <marker date="1517821991421" expanded="true" signature="3101:3162" ph="delete from " />
-            <marker date="1517821991421" expanded="true" signature="3294:3420" ph="insert into u_permission... " />
-            <marker date="1517821991421" expanded="true" signature="4231:4476" ph="update u_per... " />
-            <marker date="1517821991421" expanded="true" signature="4579:4712" ph="update u_per... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -860,9 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="71" column="15" lean-forward="false" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -870,7 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -878,7 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -886,7 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -894,9 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="428">
           <caret line="48" column="14" lean-forward="true" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -904,7 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,7 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6592">
           <caret line="57" column="20" lean-forward="true" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -920,7 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-561">
           <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -928,10 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-396">
           <caret line="44" column="16" lean-forward="true" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-          <folding>
-            <element signature="e#1532#1533#0" expanded="false" />
-            <element signature="e#1584#1585#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -939,9 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-250">
           <caret line="139" column="18" lean-forward="false" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -957,9 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -967,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -975,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-264">
           <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -983,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -991,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -999,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-495">
           <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1007,23 +881,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-shiro-simple.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-580">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-shiro-simple.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/ftl/user/index.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
           <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1031,7 +896,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1039,7 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1047,7 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,15 +917,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
           <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/common/dao/URoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,10 +940,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1098,7 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1650">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,7 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1122,10 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="e#660#661#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1139,16 +981,149 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/user/service/UUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="825">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/common/dao/UUserRoleMapper.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar!/org/springframework/beans/factory/config/MethodInvokingFactoryBean.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="561">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/core/mybatis/BaseMybatisDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="22" column="53" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="60" column="11" lean-forward="true" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="57" column="43" lean-forward="true" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/UPermissionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2013">
+          <caret line="61" column="10" lean-forward="false" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+          <folding>
+            <marker date="1517821991421" expanded="true" signature="1016:1086" ph="select from u_permission" />
+            <marker date="1517821991421" expanded="true" signature="1223:1258" ph="select count... u_permission" />
+            <marker date="1517821991421" expanded="true" signature="2005:2249" ph="select up.id... u_permission" />
+            <marker date="1517821991421" expanded="true" signature="2155:2209" ph="select id fr... u_role" />
+            <marker date="1517821991421" expanded="true" signature="2649:2794" ph="select p.url... u_permission" />
+            <marker date="1517821991421" expanded="true" signature="2910:3017" ph="select from u_permission" />
+            <marker date="1517821991421" expanded="true" signature="3101:3162" ph="delete from " />
+            <marker date="1517821991421" expanded="true" signature="3294:3420" ph="insert into u_permission... " />
+            <marker date="1517821991421" expanded="true" signature="4231:4476" ph="update u_per... " />
+            <marker date="1517821991421" expanded="true" signature="4579:4712" ph="update u_per... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/URoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding>
+            <marker date="1517879838634" expanded="true" signature="1334:1431" ph="select r.typ... u_role" />
+            <marker date="1517879838634" expanded="true" signature="1518:1582" ph="select from u_role" />
+            <marker date="1517879838634" expanded="true" signature="1719:1748" ph="select count... u_role" />
+            <marker date="1517879838634" expanded="true" signature="2148:2310" ph="select ur.id... u_role" />
+            <marker date="1517879838634" expanded="true" signature="2229:2286" ph="select * fro... u_user_role" />
+            <marker date="1517879838634" expanded="true" signature="2451:2953" ph="select ur.id... u_role" />
+            <marker date="1517879838634" expanded="true" signature="3594:3876" ph="select ur.id... rid" />
+            <marker date="1517879838634" expanded="true" signature="3664:3729" ph="select rid f... u_user_role" />
+            <marker date="1517879838634" expanded="true" signature="4032:4133" ph="select from u_role" />
+            <marker date="1517879838634" expanded="true" signature="4217:4272" ph="delete from " />
+            <marker date="1517879838634" expanded="true" signature="4398:4534" ph="insert into u_role... " />
+            <marker date="1517879838634" expanded="true" signature="5331:5573" ph="update u_rol... " />
+            <marker date="1517879838634" expanded="true" signature="5670:5799" ph="update u_rol... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/UUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="8" column="41" lean-forward="true" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <marker date="1517879851608" expanded="true" signature="1380:1444" ph="select from u_user" />
+            <marker date="1517879851608" expanded="true" signature="1581:1610" ph="select count... u_user" />
+            <marker date="1517879851608" expanded="true" signature="1777:2316" ph="select u.id,... u_user" />
+            <marker date="1517879851608" expanded="true" signature="2416:2648" ph="select ur.id... u_role" />
+            <marker date="1517879851608" expanded="true" signature="2555:2608" ph="select id fr... u_user" />
+            <marker date="1517879851608" expanded="true" signature="2985:3130" ph="select from u_user" />
+            <marker date="1517879851608" expanded="true" signature="3228:3336" ph="select from u_user" />
+            <marker date="1517879851608" expanded="true" signature="3450:3551" ph="select from u_user" />
+            <marker date="1517879851608" expanded="true" signature="3635:3690" ph="delete from " />
+            <marker date="1517879851608" expanded="true" signature="3816:4142" ph="insert into u_user... " />
+            <marker date="1517879851608" expanded="true" signature="5576:6230" ph="update u_use... " />
+            <marker date="1517879851608" expanded="true" signature="6327:6662" ph="update u_use... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/UUserRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <marker date="1517879856334" expanded="true" signature="493:587" ph="insert into u_user_role... " />
+            <marker date="1517879856334" expanded="true" signature="654:712" ph="delete from " />
+            <marker date="1517879856334" expanded="true" signature="764:829" ph="delete from " />
+            <marker date="1517879856334" expanded="true" signature="926:988" ph="select uid f... u_user_role" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/user/service/impl/UUServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/common/dao/URoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1161,53 +1136,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar!/org/springframework/beans/factory/config/MethodInvokingFactoryBean.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/common/dao/UUserRoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/user/service/impl/UUServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/common/mapper/URolePermissionMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="32" column="16" lean-forward="false" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+        <state relative-caret-position="330">
+          <caret line="55" column="53" lean-forward="true" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1517879845184" expanded="true" signature="574:680" ph="select from u_role_permission" />
+            <marker date="1517879845184" expanded="true" signature="783:889" ph="select from u_role_permission" />
+            <marker date="1517879845184" expanded="true" signature="979:1124" ph="select from u_role_permission" />
+            <marker date="1517879845184" expanded="true" signature="1188:1252" ph="delete from " />
+            <marker date="1517879845184" expanded="true" signature="1316:1380" ph="delete from " />
+            <marker date="1517879845184" expanded="true" signature="1446:1549" ph="delete from " />
+            <marker date="1517879845184" expanded="true" signature="1614:1685" ph="delete from " />
+            <marker date="1517879845184" expanded="true" signature="1786:1886" ph="insert into u_role_permission... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/anlu/core/mybatis/BaseMybatisDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
-          <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="53" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
