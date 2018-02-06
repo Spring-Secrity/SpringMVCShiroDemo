@@ -19,9 +19,9 @@
     </context:component-scan>
 
     <!--扫描service-->
-    <context:component-scan base-package="com.anlu.*.service.impl;com.anlu.*.*.service"/>
-    <context:component-scan base-package="com.anlu.**"/>
+    <context:component-scan base-package="com.anlu.*.service;com.anlu.*.*.service"/>
 
+    <context:component-scan base-package="com.anlu.common.dao"/>
 
 
     <!--但是项目部署到linux下发现WEB-INF的静态资源会出现无法解析的情况，但是本地tomcat访问正常，因此建议还是直接把静态资源放在webapp的statics下，映射配置如下-->
@@ -43,7 +43,7 @@
         <property name="suffix" value=".jsp"/>
     </bean>
     <!-- 自动扫描 标签 -->
-    <context:component-scan base-package="com.anlu.*.*.tag;com.anlu.*.tag" />
+    <!--<context:component-scan base-package="com.anlu.*.*.tag;com.anlu.*.tag" />-->
     <bean name="api" class="com.anlu.core.tags.APITemplateModel"></bean>
     <bean name="springContextUtil" class="com.anlu.core.utils.SpringContextUtil" scope="singleton"></bean>
 

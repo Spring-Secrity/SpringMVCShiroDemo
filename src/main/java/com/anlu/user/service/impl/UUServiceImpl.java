@@ -26,52 +26,52 @@ public class UUServiceImpl extends BaseMybatisDao<UUserMapper> implements UUserS
     /***
      * 用户手动操作Session
      * */
-    @Autowired
-    CustomSessionManager customSessionManager;
+//    @Autowired
+//    CustomSessionManager customSessionManager;
 
     @Autowired
-    UUserMapper userMapper;
+    private UUserMapper uUserMapper;
 
     @Autowired
-    UUserRoleMapper userRoleMapper;
+    private UUserRoleMapper userRoleMapper;
 
 
     public int deleteByPrimaryKey(Long id) {
-        return userMapper.deleteByPrimaryKey(id);
+        return uUserMapper.deleteByPrimaryKey(id);
     }
 
     public UUser insert(UUser record) {
-        userMapper.insert(record);
+        uUserMapper.insert(record);
         return record;
     }
 
     public UUser insertSelective(UUser record) {
-        userMapper.insertSelective(record);
+        uUserMapper.insertSelective(record);
         return record;
     }
 
     public UUser selectByPrimaryKey(Long id) {
-        return userMapper.selectByPrimaryKey(id);
+        return uUserMapper.selectByPrimaryKey(id);
     }
 
     public int updateByPrimaryKeySelective(UUser record) {
-        return userMapper.updateByPrimaryKey(record);
+        return uUserMapper.updateByPrimaryKey(record);
     }
 
     public int updateByPrimaryKey(UUser record) {
-        return userMapper.updateByPrimaryKeySelective(record);
+        return uUserMapper.updateByPrimaryKeySelective(record);
     }
 
     public UUser login(String email, String pswd) {
-        Map<String,Object> map = new HashMap<String, Object>();
+        Map<String, Object> map = new HashMap<String, Object>();
         map.put("email", email);
         map.put("pswd", pswd);
-        UUser user = userMapper.login(map);
+        UUser user = uUserMapper.login(map);
         return user;
     }
 
     public UUser findUserByEmail(String email) {
-        return userMapper.findUserByEmail(email);
+        return uUserMapper.findUserByEmail(email);
     }
 
     public Pagination<UUser> findByPage(Map<String, Object> resultMap, Integer pageNo, Integer pageSize) {
@@ -79,18 +79,18 @@ public class UUServiceImpl extends BaseMybatisDao<UUserMapper> implements UUserS
     }
 
     public Map<String, Object> deleteUserById(String ids) {
-        Map<String,Object> resultMap = new HashMap<String,Object>();
+        Map<String, Object> resultMap = new HashMap<String, Object>();
         try {
-            int count=0;
+            int count = 0;
             String[] idArray = new String[]{};
-            if(StringUtils.contains(ids, ",")){
+            if (StringUtils.contains(ids, ",")) {
                 idArray = ids.split(",");
-            }else{
+            } else {
                 idArray = new String[]{ids};
             }
 
             for (String id : idArray) {
-                count+=this.deleteByPrimaryKey(new Long(id));
+                count += this.deleteByPrimaryKey(new Long(id));
             }
             resultMap.put("status", 200);
             resultMap.put("count", count);
@@ -103,21 +103,21 @@ public class UUServiceImpl extends BaseMybatisDao<UUserMapper> implements UUserS
     }
 
     public Map<String, Object> updateForbidUserById(Long id, Long status) {
-        Map<String,Object> resultMap = new HashMap<String,Object>();
+        Map<String, Object> resultMap = new HashMap<String, Object>();
         try {
             UUser user = selectByPrimaryKey(id);
             user.setStatus(status);
             updateByPrimaryKeySelective(user);
 
             //如果当前用户在线，需要标记并且踢出
-            customSessionManager.forbidUserById(id,status);
+//            customSessionManager.forbidUserById(id,status);
 
 
             resultMap.put("status", 200);
         } catch (Exception e) {
             resultMap.put("status", 500);
             resultMap.put("message", "操作失败，请刷新再试！");
-            LoggerUtils.fmtError(getClass(), "禁止或者激活用户登录失败，id[%s],status[%s]", id,status);
+            LoggerUtils.fmtError(getClass(), "禁止或者激活用户登录失败，id[%s],status[%s]", id, status);
         }
         return resultMap;
     }
@@ -128,30 +128,30 @@ public class UUServiceImpl extends BaseMybatisDao<UUserMapper> implements UUserS
     }
 
     public List<URoleBo> selectRoleByUserId(Long id) {
-        return userMapper.selectRoleByUserId(id);
+        return uUserMapper.selectRoleByUserId(id);
     }
 
     public Map<String, Object> addRole2User(Long userId, String ids) {
-        Map<String,Object> resultMap = new HashMap<String, Object>();
+        Map<String, Object> resultMap = new HashMap<String, Object>();
         int count = 0;
         try {
             //先删除原有的。
             userRoleMapper.deleteByUserId(userId);
             //如果ids,role 的id 有值，那么就添加。没值象征着：把这个用户（userId）所有角色取消。
-            if(StringUtils.isNotBlank(ids)){
+            if (StringUtils.isNotBlank(ids)) {
                 String[] idArray = null;
 
                 //这里有的人习惯，直接ids.split(",") 都可以，我习惯这么写。清楚明了。
-                if(StringUtils.contains(ids, ",")){
+                if (StringUtils.contains(ids, ",")) {
                     idArray = ids.split(",");
-                }else{
+                } else {
                     idArray = new String[]{ids};
                 }
                 //添加新的。
                 for (String rid : idArray) {
                     //这里严谨点可以判断，也可以不判断。这个{@link StringUtils 我是重写了的}
-                    if(StringUtils.isNotBlank(rid)){
-                        UUserRole entity = new UUserRole(userId,new Long(rid));
+                    if (StringUtils.isNotBlank(rid)) {
+                        UUserRole entity = new UUserRole(userId, new Long(rid));
                         count += userRoleMapper.insertSelective(entity);
                     }
                 }
@@ -169,7 +169,7 @@ public class UUServiceImpl extends BaseMybatisDao<UUserMapper> implements UUserS
     }
 
     public Map<String, Object> deleteRoleByUserIds(String userIds) {
-        Map<String,Object> resultMap = new HashMap<String, Object>();
+        Map<String, Object> resultMap = new HashMap<String, Object>();
         try {
             resultMap.put("userIds", userIds);
             userRoleMapper.deleteRoleByUserIds(resultMap);

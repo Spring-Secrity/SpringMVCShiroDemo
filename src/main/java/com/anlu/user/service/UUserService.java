@@ -5,10 +5,12 @@ import com.anlu.common.model.UUser;
 import com.anlu.common.model.bo.URoleBo;
 import com.anlu.common.model.bo.UserRoleAllocationBo;
 import com.anlu.core.mybatis.page.Pagination;
+import org.springframework.stereotype.Service;
 import org.springframework.ui.ModelMap;
 
 import java.util.List;
 import java.util.Map;
+
 
 public interface UUserService {
 

@@ -13,8 +13,7 @@
 			>
 
 	<!-- 自动扫描(自动注入) -->
-	<context:component-scan base-package="com.anlu.*.dao;com.anlu.**"/>
-	<context:component-scan base-package="com.anlu.*.service.impl;com.anlu.*.*.service"/>
+	<context:component-scan base-package="com.anlu.*.service;com.anlu.*.*.service"/>
 
 	<bean id="log-filter" class="com.alibaba.druid.filter.logging.Log4jFilter">
     	<property name="resultSetLogEnabled" value="true" />
@@ -58,6 +57,7 @@
 		<property name="mapperLocations"  >
 			<list>
 				<value>classpath:com/anlu/common/mapper/*.xml</value>
+				<!--<value>classpath:com/anlu/common/mapper/*.xml</value>-->
 			</list>
 		</property>
 	</bean>
