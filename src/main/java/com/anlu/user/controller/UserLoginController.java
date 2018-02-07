@@ -126,6 +126,7 @@ public class UserLoginController extends BaseController {
         } catch (Exception e) {
             resultMap.put("status", 500);
             resultMap.put("message", "帐号或密码错误");
+            e.printStackTrace();
         }
         return resultMap;
     }

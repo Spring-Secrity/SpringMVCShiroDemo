@@ -48,11 +48,11 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>springMvc</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>*.shtml</url-pattern>
     </servlet-mapping>
-    <welcome-file-list>
-        <welcome-file>/user/index.shtml</welcome-file>
-    </welcome-file-list>
+    <!--<welcome-file-list>-->
+        <!--<welcome-file>/user/index.shtml</welcome-file>-->
+    <!--</welcome-file-list>-->
 
     <filter>
         <filter-name>shiroFilter</filter-name>
@@ -60,7 +60,7 @@
     </filter>
     <filter-mapping>
         <filter-name>shiroFilter</filter-name>
-        <url-pattern>/*</url-pattern>
+        <url-pattern>*.shtml</url-pattern>
     </filter-mapping>
 
     <!-- 配置session超时时间，单位分钟 -->
