@@ -127,6 +127,7 @@ public class UserLoginController extends BaseController {
             resultMap.put("status", 500);
             resultMap.put("message", "帐号或密码错误");
             e.printStackTrace();
+            logger.info(e.getLocalizedMessage());
         }
         return resultMap;
     }

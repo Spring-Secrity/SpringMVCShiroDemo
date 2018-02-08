@@ -81,6 +81,9 @@ public class TokenManager {
      */
     public static UUser login(UUser user,Boolean rememberMe){
         ShiroToken token = new ShiroToken(user.getEmail(), user.getPswd());
+        if(rememberMe==null){
+            rememberMe=false;
+        }
         token.setRememberMe(rememberMe);
         SecurityUtils.getSubject().login(token);
         return getToken();
@@ -131,7 +134,7 @@ public class TokenManager {
 
     /**
      * 根据UserIds 	清空权限信息。
-     * @param id	用户ID
+     * @param
      */
     public static void clearUserAuthByUserId(Long...userIds){
 

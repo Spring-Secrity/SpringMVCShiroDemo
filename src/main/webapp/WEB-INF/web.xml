@@ -50,9 +50,9 @@
         <servlet-name>springMvc</servlet-name>
         <url-pattern>*.shtml</url-pattern>
     </servlet-mapping>
-    <!--<welcome-file-list>-->
-        <!--<welcome-file>/user/index.shtml</welcome-file>-->
-    <!--</welcome-file-list>-->
+    <welcome-file-list>
+        <welcome-file>/user/index.shtml</welcome-file>
+    </welcome-file-list>
 
     <filter>
         <filter-name>shiroFilter</filter-name>
