@@ -26,7 +26,7 @@ public interface UUserService {
 
     int updateByPrimaryKey(UUser record);
     
-    UUser login(String email, String pswd);
+    UUser login(String email, String pswd)throws Exception;
 
 	UUser findUserByEmail(String email);
 

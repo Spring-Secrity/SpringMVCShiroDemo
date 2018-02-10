@@ -72,11 +72,20 @@
   </select>
   
   <!-- 登录 -->
-  <select id="login"  resultMap="BaseResultMap">
-  	select * from u_user
-    where email = 'admin' and  pswd = '57eb72e6b78a87a12d46a7f5e9315138'
+  <select id="loginAccount" parameterType="java.util.Map" resultMap="BaseResultMap" >
+  	 select 
+    *
+    from u_user
+    where email = #{email,jdbcType=VARCHAR} and  pswd = #{pswd,jdbcType=VARCHAR} 
   </select>
 
+  <!-- 登录 -->
+  <select id="loginAccount" parameterType="java.util.Map" resultMap="BaseResultMap" >
+    select
+    *
+    from u_user
+    where email = #{email,jdbcType=VARCHAR} and  pswd = #{pswd,jdbcType=VARCHAR}
+  </select>
   <!-- 根据邮箱|帐号查询 -->
   <select id="findUserByEmail" resultMap="BaseResultMap" >
   	 select 

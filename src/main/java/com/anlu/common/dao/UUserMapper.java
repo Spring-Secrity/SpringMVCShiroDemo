@@ -23,7 +23,12 @@ public interface UUserMapper {
 
     int updateByPrimaryKey(UUser record);
 
-	UUser login(Map<String, Object> map);
+    /**
+     * @param
+     * @return
+     */
+    UUser login();
+
 
 	UUser findUserByEmail(String email);
 

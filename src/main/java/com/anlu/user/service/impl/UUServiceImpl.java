@@ -62,12 +62,26 @@ public class UUServiceImpl extends BaseMybatisDao<UUserMapper> implements UUserS
         return uUserMapper.updateByPrimaryKeySelective(record);
     }
 
-    public UUser login(String email, String pswd) {
-        Map<String, Object> map = new HashMap<String, Object>();
-        map.put("email", email);
-        map.put("pswd", pswd);
-        UUser user = uUserMapper.login(map);
-        return user;
+    /**
+     * 根据邮箱和密码进行登录
+     * @param email
+     * @param pswd
+     * @return
+     * @throws Exception
+     */
+    public UUser login(String email, String pswd)throws Exception {
+        try{
+            Map<String, Object> map = new HashMap<String, Object>();
+            map.put("email", email);
+            map.put("pswd", pswd);
+            UUser user = uUserMapper.login();
+            return user;
+        }catch (Exception e){
+            e.printStackTrace();
+            System.out.println(e.getLocalizedMessage());
+            logger.info(e.getLocalizedMessage());
+        }
+        return null;
     }
 
     public UUser findUserByEmail(String email) {

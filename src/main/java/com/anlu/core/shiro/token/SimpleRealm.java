@@ -63,8 +63,12 @@ public class SimpleRealm extends AuthorizingRealm {
      */
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
         ShiroToken token = (ShiroToken) authenticationToken;
-        UUser user = userService.login(token.getUsername(), token.getPswd());
-
+        UUser user = null;
+        try {
+            user = userService.login(token.getUsername(), token.getPswd());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         if (user == null) {
             throw new AccountException("帐号或密码不正确！");
         } else if (UUser._0.equals(user.getStatus())) {

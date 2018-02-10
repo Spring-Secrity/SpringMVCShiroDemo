@@ -50,7 +50,7 @@ public class UserCoreController extends BaseController {
      */
     @RequestMapping(value="updatePswd",method=RequestMethod.POST)
     @ResponseBody
-    public Map<String,Object> updatePswd(String pswd, String newPswd){
+    public Map<String,Object> updatePswd(String pswd, String newPswd) throws Exception {
         //根据当前登录的用户帐号 + 老密码，查询。
         String email = TokenManager.getToken().getEmail();
         pswd = UserManager.md5Pswd(email, pswd);
