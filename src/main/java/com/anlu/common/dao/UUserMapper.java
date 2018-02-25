@@ -27,7 +27,7 @@ public interface UUserMapper {
      * @param
      * @return
      */
-    UUser login();
+    UUser login(Map map);
 
 
 	UUser findUserByEmail(String email);

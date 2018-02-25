@@ -23,6 +23,7 @@ import java.util.Map;
 
 @Service
 public class UUServiceImpl extends BaseMybatisDao<UUserMapper> implements UUserService {
+    //add by andrew
     /***
      * 用户手动操作Session
      * */
@@ -74,7 +75,7 @@ public class UUServiceImpl extends BaseMybatisDao<UUserMapper> implements UUserS
             Map<String, Object> map = new HashMap<String, Object>();
             map.put("email", email);
             map.put("pswd", pswd);
-            UUser user = uUserMapper.login();
+            UUser user = uUserMapper.login(map);
             return user;
         }catch (Exception e){
             e.printStackTrace();
